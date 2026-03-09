@@ -1,4 +1,3 @@
-docker pull alpine
 docker images
 docker run alpine
 docker ps -a

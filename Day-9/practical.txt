@@ -1,4 +1,3 @@
-docker pull mysql
 docker images
 docker run mysql
 docker ps -a

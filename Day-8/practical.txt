@@ -1,4 +1,3 @@
-docker pull httpd
 docker images
 docker run httpd
 docker ps -a

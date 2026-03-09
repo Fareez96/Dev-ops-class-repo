@@ -1,4 +1,3 @@
-docker pull postgres
 docker images
 docker run postgres
 docker ps -a

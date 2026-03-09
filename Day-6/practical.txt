@@ -1,4 +1,3 @@
-docker pull nginx
 docker images
 docker run nginx
 docker ps -a

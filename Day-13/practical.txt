@@ -1,4 +1,3 @@
-docker pull python
 docker images
 docker run python
 docker ps -a

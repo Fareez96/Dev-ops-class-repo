@@ -1,4 +1,3 @@
-docker pull tomcat
 docker images
 docker run tomcat
 docker ps -a

@@ -1,4 +1,3 @@
-docker pull mongo
 docker images
 docker run mongo
 docker ps -a

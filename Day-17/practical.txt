@@ -1,4 +1,3 @@
-docker pull openjdk
 docker images
 docker run openjdk
 docker ps -a

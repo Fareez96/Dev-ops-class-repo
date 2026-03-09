@@ -1,4 +1,3 @@
-docker pull ubuntu
 docker images
 docker run ubuntu
 docker ps -a

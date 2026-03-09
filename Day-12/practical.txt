@@ -1,4 +1,3 @@
-docker pull redis
 docker images
 docker run redis
 docker ps -a
