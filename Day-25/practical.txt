@@ -1,0 +1,21 @@
+# Day 25 - Practical 25: docker run -d -p 8080:80 nginx
+
+# Step 1: Open terminal
+
+# Step 2: Run Nginx container in detached mode with port mapping
+docker run -d -p 8080:80 nginx
+
+# Step 3: Verify the container is running
+docker ps
+
+# Step 4: Access Nginx in browser
+# http://localhost:8080
+
+# Step 5: Check the container logs
+docker logs $(docker ps -q --filter ancestor=nginx)
+
+# Step 6: Stop the container
+docker stop $(docker ps -q --filter ancestor=nginx)
+
+# Step 7: Verify the container is stopped
+docker ps -a

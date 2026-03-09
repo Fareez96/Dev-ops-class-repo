@@ -1,0 +1,24 @@
+# Day 19 - Practical 19: docker pull php
+
+# Step 1: Open terminal
+
+# Step 2: Pull the PHP image
+docker pull php
+
+# Step 3: Verify the image is downloaded
+docker images
+
+# Step 4: Run the PHP container in interactive mode
+docker run -it php
+
+# Step 5: Inside the container, check PHP version
+php -v
+
+# Step 6: Run a PHP command
+echo "Hello from PHP";
+
+# Step 7: Exit the container
+exit
+
+# Step 8: Verify the container status
+docker ps -a

@@ -1,0 +1,17 @@
+# Day 22 - Practical 22: docker image prune
+
+# Step 1: Open terminal
+
+# Step 2: Check existing images before pruning
+docker images
+
+# Step 3: Remove unused/dangling Docker images
+docker image prune
+
+# Step 4: Confirm by typing 'y' when prompted
+
+# Step 5: Verify images after pruning
+docker images
+
+# Step 6: To remove all unused images (not just dangling)
+docker image prune -a

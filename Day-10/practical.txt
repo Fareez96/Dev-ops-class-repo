@@ -1,0 +1,24 @@
+# Day 10 - Practical 10: docker pull postgres
+
+# Step 1: Open terminal
+
+# Step 2: Pull the PostgreSQL image
+docker pull postgres
+
+# Step 3: Verify the image is downloaded
+docker images
+
+# Step 4: Run the PostgreSQL container with password
+docker run -d -p 5432:5432 -e POSTGRES_PASSWORD=root postgres
+
+# Step 5: Verify the container is running
+docker ps
+
+# Step 6: Access PostgreSQL inside the container
+docker exec -it $(docker ps -q --filter ancestor=postgres) psql -U postgres
+
+# Step 7: Inside PostgreSQL, list databases
+\l
+
+# Step 8: Exit PostgreSQL
+\q

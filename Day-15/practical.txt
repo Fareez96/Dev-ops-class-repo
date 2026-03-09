@@ -1,0 +1,21 @@
+# Day 15 - Practical 15: docker pull node
+
+# Step 1: Open terminal
+
+# Step 2: Pull the Node.js image
+docker pull node
+
+# Step 3: Verify the image is downloaded
+docker images
+
+# Step 4: Run the Node.js container in interactive mode
+docker run -it node
+
+# Step 5: Inside the container, check Node.js version
+process.version
+
+# Step 6: Exit the Node.js shell
+.exit
+
+# Step 7: Verify the container status
+docker ps -a

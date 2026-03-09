@@ -1,0 +1,12 @@
+# Day 23 - Practical 23: docker run hello-world
+
+# Step 1: Open terminal
+
+# Step 2: Run the hello-world container
+docker run hello-world
+
+# Step 3: Verify the container ran successfully
+docker ps -a
+
+# Step 4: Check the container logs
+docker logs $(docker ps -a -q --filter ancestor=hello-world -l)

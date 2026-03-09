@@ -1,0 +1,21 @@
+# Day 3 - Practical 3: docker pull ubuntu:22.04
+
+# Step 1: Open terminal
+
+# Step 2: Pull the Ubuntu 22.04 image
+docker pull ubuntu:22.04
+
+# Step 3: Verify the image is downloaded
+docker images
+
+# Step 4: Run the Ubuntu 22.04 container in interactive mode
+docker run -it ubuntu:22.04
+
+# Step 5: Inside the container, check the OS version
+cat /etc/os-release
+
+# Step 6: Exit the container
+exit
+
+# Step 7: Verify the container status
+docker ps -a

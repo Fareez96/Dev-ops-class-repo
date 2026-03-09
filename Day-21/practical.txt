@@ -1,0 +1,15 @@
+# Day 21 - Practical 21: docker images
+
+# Step 1: Open terminal
+
+# Step 2: List all Docker images on the system
+docker images
+
+# Step 3: List images with specific format
+docker images --format "table {{.Repository}}\t{{.Tag}}\t{{.Size}}"
+
+# Step 4: List only image IDs
+docker images -q
+
+# Step 5: Filter images by name
+docker images nginx

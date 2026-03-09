@@ -1,0 +1,21 @@
+# Day 8 - Practical 8: docker pull httpd
+
+# Step 1: Open terminal
+
+# Step 2: Pull the Apache HTTPD image
+docker pull httpd
+
+# Step 3: Verify the image is downloaded
+docker images
+
+# Step 4: Run the Apache HTTPD container in detached mode
+docker run -d -p 8082:80 httpd
+
+# Step 5: Verify the container is running
+docker ps
+
+# Step 6: Access Apache in browser
+# http://localhost:8082
+
+# Step 7: Stop the container
+docker stop $(docker ps -q --filter ancestor=httpd)

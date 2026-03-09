@@ -1,0 +1,22 @@
+# Day 14 - Practical 14: docker pull python:3.9
+
+# Step 1: Open terminal
+
+# Step 2: Pull the Python 3.9 image
+docker pull python:3.9
+
+# Step 3: Verify the image is downloaded
+docker images
+
+# Step 4: Run the Python 3.9 container in interactive mode
+docker run -it python:3.9
+
+# Step 5: Inside the container, check Python version
+import sys
+print(sys.version)
+
+# Step 6: Exit the Python shell
+exit()
+
+# Step 7: Verify the container status
+docker ps -a

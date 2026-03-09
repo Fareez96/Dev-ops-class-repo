@@ -1,0 +1,22 @@
+# Day 13 - Practical 13: docker pull python
+
+# Step 1: Open terminal
+
+# Step 2: Pull the Python image
+docker pull python
+
+# Step 3: Verify the image is downloaded
+docker images
+
+# Step 4: Run the Python container in interactive mode
+docker run -it python
+
+# Step 5: Inside the container, check Python version
+import sys
+print(sys.version)
+
+# Step 6: Exit the Python shell
+exit()
+
+# Step 7: Verify the container status
+docker ps -a

@@ -1,0 +1,21 @@
+# Day 2 - Practical 2: docker pull ubuntu
+
+# Step 1: Open terminal
+
+# Step 2: Pull the Ubuntu image
+docker pull ubuntu
+
+# Step 3: Verify the image is downloaded
+docker images
+
+# Step 4: Run the Ubuntu container in interactive mode
+docker run -it ubuntu
+
+# Step 5: Inside the container, check the OS version
+cat /etc/os-release
+
+# Step 6: Exit the container
+exit
+
+# Step 7: Verify the container status
+docker ps -a

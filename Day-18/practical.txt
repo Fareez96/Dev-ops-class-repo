@@ -1,0 +1,21 @@
+# Day 18 - Practical 18: docker pull tomcat
+
+# Step 1: Open terminal
+
+# Step 2: Pull the Tomcat image
+docker pull tomcat
+
+# Step 3: Verify the image is downloaded
+docker images
+
+# Step 4: Run the Tomcat container in detached mode
+docker run -d -p 8080:8080 tomcat
+
+# Step 5: Verify the container is running
+docker ps
+
+# Step 6: Access Tomcat in browser
+# http://localhost:8080
+
+# Step 7: Stop the container
+docker stop $(docker ps -q --filter ancestor=tomcat)

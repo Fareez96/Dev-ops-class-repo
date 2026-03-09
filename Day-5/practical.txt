@@ -1,0 +1,21 @@
+# Day 5 - Practical 5: docker pull busybox
+
+# Step 1: Open terminal
+
+# Step 2: Pull the BusyBox image
+docker pull busybox
+
+# Step 3: Verify the image is downloaded
+docker images
+
+# Step 4: Run the BusyBox container in interactive mode
+docker run -it busybox
+
+# Step 5: Inside the container, run a command
+echo "Hello from BusyBox"
+
+# Step 6: Exit the container
+exit
+
+# Step 7: Verify the container status
+docker ps -a

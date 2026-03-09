@@ -1,0 +1,24 @@
+# Day 24 - Practical 24: docker run -it ubuntu
+
+# Step 1: Open terminal
+
+# Step 2: Run Ubuntu container in interactive mode with terminal
+docker run -it ubuntu
+
+# Step 3: Inside the container, check the OS version
+cat /etc/os-release
+
+# Step 4: Update package list
+apt update
+
+# Step 5: Install a package (example: curl)
+apt install curl -y
+
+# Step 6: Verify the installation
+curl --version
+
+# Step 7: Exit the container
+exit
+
+# Step 8: Verify the container status
+docker ps -a

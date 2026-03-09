@@ -1,0 +1,21 @@
+# Day 16 - Practical 16: docker pull node:18
+
+# Step 1: Open terminal
+
+# Step 2: Pull the Node.js 18 image
+docker pull node:18
+
+# Step 3: Verify the image is downloaded
+docker images
+
+# Step 4: Run the Node.js 18 container in interactive mode
+docker run -it node:18
+
+# Step 5: Inside the container, check Node.js version
+process.version
+
+# Step 6: Exit the Node.js shell
+.exit
+
+# Step 7: Verify the container status
+docker ps -a

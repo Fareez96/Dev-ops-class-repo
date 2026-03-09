@@ -1,0 +1,15 @@
+# Day 1 - Practical 1: docker pull hello-world
+
+# Step 1: Open terminal
+
+# Step 2: Pull the hello-world image
+docker pull hello-world
+
+# Step 3: Verify the image is downloaded
+docker images
+
+# Step 4: Run the hello-world container
+docker run hello-world
+
+# Step 5: Verify the container ran successfully
+docker ps -a

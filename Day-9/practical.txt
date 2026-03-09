@@ -1,0 +1,24 @@
+# Day 9 - Practical 9: docker pull mysql
+
+# Step 1: Open terminal
+
+# Step 2: Pull the MySQL image
+docker pull mysql
+
+# Step 3: Verify the image is downloaded
+docker images
+
+# Step 4: Run the MySQL container with root password
+docker run -d -p 3306:3306 -e MYSQL_ROOT_PASSWORD=root mysql
+
+# Step 5: Verify the container is running
+docker ps
+
+# Step 6: Access MySQL inside the container
+docker exec -it $(docker ps -q --filter ancestor=mysql) mysql -u root -p
+
+# Step 7: Inside MySQL, show databases
+SHOW DATABASES;
+
+# Step 8: Exit MySQL
+exit

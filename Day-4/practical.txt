@@ -1,0 +1,21 @@
+# Day 4 - Practical 4: docker pull alpine
+
+# Step 1: Open terminal
+
+# Step 2: Pull the Alpine image
+docker pull alpine
+
+# Step 3: Verify the image is downloaded
+docker images
+
+# Step 4: Run the Alpine container in interactive mode
+docker run -it alpine
+
+# Step 5: Inside the container, check the OS version
+cat /etc/os-release
+
+# Step 6: Exit the container
+exit
+
+# Step 7: Verify the container status
+docker ps -a
