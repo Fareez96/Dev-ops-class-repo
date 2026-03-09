@@ -1,0 +1,5 @@
+docker pull node:18
+docker images
+docker run node:18
+docker ps -a
+docker rm <container_id>

@@ -1,0 +1,5 @@
+docker pull golang
+docker images
+docker run golang
+docker ps -a
+docker rm <container_id>

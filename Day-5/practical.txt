@@ -1,0 +1,5 @@
+docker pull busybox
+docker images
+docker run busybox
+docker ps -a
+docker rm <container_id>

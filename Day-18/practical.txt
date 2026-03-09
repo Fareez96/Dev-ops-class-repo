@@ -1,0 +1,5 @@
+docker pull tomcat
+docker images
+docker run tomcat
+docker ps -a
+docker rm <container_id>

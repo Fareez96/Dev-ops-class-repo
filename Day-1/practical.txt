@@ -1,0 +1,5 @@
+docker pull hello-world
+docker images
+docker run hello-world
+docker ps -a
+docker rm <container_id>

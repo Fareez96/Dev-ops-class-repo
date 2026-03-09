@@ -1,0 +1,5 @@
+docker pull php
+docker images
+docker run php
+docker ps -a
+docker rm <container_id>

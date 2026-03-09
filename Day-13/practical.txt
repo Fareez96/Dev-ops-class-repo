@@ -1,0 +1,5 @@
+docker pull python
+docker images
+docker run python
+docker ps -a
+docker rm <container_id>

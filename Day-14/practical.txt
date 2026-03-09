@@ -1,0 +1,5 @@
+docker pull python:3.9
+docker images
+docker run python:3.9
+docker ps -a
+docker rm <container_id>

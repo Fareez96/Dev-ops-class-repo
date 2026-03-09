@@ -1,0 +1,5 @@
+docker pull mongo
+docker images
+docker run mongo
+docker ps -a
+docker rm <container_id>
